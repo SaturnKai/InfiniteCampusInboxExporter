@@ -21,3 +21,8 @@ After that, you will be prompted to enter in your Infinite Campus username and p
 After that, your Infinite Campus inbox will be accessed via the Infinite Campus API, and every inbox entry will be downloaded into a folder of the message’s date, in the format of a .html file.
 
 **Developer’s Note:** I’m aware this program isn’t super useful, this project was created more for fun, however some may be able to get some use from it. Maybe someday I can branch this project into something bigger, like a fully custom Infinite Campus client. I put a lot of effort into this program, so I hope you enjoy it as much as I enjoyed making it! :)
+
+Screenshot:
+-----
+
+![Screenshot 1](https://www.satial.xyz/projects/KBvjTw6Suxb4p5P5.png)
