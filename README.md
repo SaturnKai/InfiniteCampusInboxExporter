@@ -2,6 +2,7 @@ Infinite Campus Inbox Exporter is a program I wrote in C# that allows you to exp
 This tool can be used for archiving your inbox as a backup.
 
 Download Instructions:
+-----
 
  - Download and install .NET Core V3.1 Runtime
    - Windows 64 Bit: https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-desktop-3.1.0-windows-x64-installer
@@ -11,6 +12,7 @@ Download Instructions:
  - Run the "InfiniteCampusInboxExporter" Executable
 
 Program Instructions:
+-----
 
 When executing the program, you will be prompted to enter in your state code and your school district's name. These are required to pinpoint the correct Infinite Campus server that corresponds to the correct school district you go to. The same information that you would enter on https://www.infinitecampus.com/audience/parents-students/login-search is the same information you would enter here, as it's required to authenticate your account correctly. After entering your district information, you will be greeted with a result, or multiple results if any valid districts were found. If none were found, this is either because you entered something incorrectly, or your school district is labeled under a different name. If any results appear, then enter in the number that corresponds to the correct result.
 
