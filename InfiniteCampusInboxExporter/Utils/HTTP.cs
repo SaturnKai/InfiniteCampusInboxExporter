@@ -13,7 +13,7 @@ namespace InfiniteCampusInboxExporter.Utils
             {
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
                 request.Method = "GET";
-                request.UserAgent = "InfiniteCampusInboxExporter/1.0 Developed By: Brandon";
+                request.UserAgent = "InfiniteCampusInboxExporter/1.0 - Developed By: Brandon";
                 request.CookieContainer = cookies;
                 HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                 cookies.Add(response.Cookies);
@@ -36,7 +36,7 @@ namespace InfiniteCampusInboxExporter.Utils
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
                 request.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9";
-                request.UserAgent = "InfiniteCampusInboxExporter/1.0 Developed By: Brandon";
+                request.UserAgent = "InfiniteCampusInboxExporter/1.0 - Developed By: Brandon";
                 request.CookieContainer = cookies;
                 Stream postDataStream = request.GetRequestStream();
                 postDataStream.Write(Encoding.ASCII.GetBytes(postData), 0, postData.Length);
