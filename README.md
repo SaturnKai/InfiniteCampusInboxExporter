@@ -25,4 +25,4 @@ After that, your Infinite Campus inbox will be accessed via the Infinite Campus 
 Screenshot:
 -----
 
-![Screenshot 1](https://www.satial.xyz/screenshots/KBvjTw6Suxb4p5P5.png)
+![Screenshot 1](https://raw.githubusercontent.com/SaturnKai/InfiniteCampusInboxExporter/main/.screenshots/screenshot.png)
